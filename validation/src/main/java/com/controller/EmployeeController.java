@@ -41,7 +41,6 @@ public class EmployeeController {
 		}
 	}
 	
-	//343444444444444444444444444444
 	@RequestMapping("/view")
 	public String showEmployee(Model model){
 		List<Employee> empList = dao.getAllEmployees();
