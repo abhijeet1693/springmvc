@@ -62,6 +62,7 @@ public class EmployeeController {
 		return "redirect:/view";
 	}
 	
+	//afsdgf
 	@RequestMapping("/deleteform/{id}")
 	public String deleteRecord(@PathVariable("id") int id) {
 		int update = dao.deleteRecord(id);
