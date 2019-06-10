@@ -55,7 +55,6 @@ public class EmployeeController {
 		return "EditEmployee";
 	}
 	
-	//46378jhgfAgydhfjkhgnfdaweretrytuhj
 	
 	@RequestMapping("/update")
 	public String updateRecord(@ModelAttribute("emp") Employee emp) {
@@ -64,7 +63,7 @@ public class EmployeeController {
 		return "redirect:/view";
 	}
 	
-	//afsdgf
+	
 	@RequestMapping("/deleteform/{id}")
 	public String deleteRecord(@PathVariable("id") int id) {
 		int update = dao.deleteRecord(id);
